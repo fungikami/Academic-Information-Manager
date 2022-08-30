@@ -1,0 +1,71 @@
+Descripción de los archivos fuentes del Proyecto Administrador de Información Académica.
+
+El proyecto contiene los siguientes archivos:
+
+Implementación del TAD AIFA:
+
+- AIFA.kt: Contiene la interfaz AIFA, que representa el TAD AIFA del proyecto.
+
+- ArbolInfoAcad.kt: Contiene la clase ArbolInfoAcad, en la cual se implementan las operaciones del
+TAD AIFA del proyecto con un arbol binario de búsqueda.
+
+- InfoAcad.kt: Contiene la clase InfoAcad, que representa la información académica, compuesta por
+el carnet del estudiante, la materia cursada y su calificación.
+
+- Nodo.kt: Contiene la clase Nodo, que representa los nodos del arbol binario implementado en 
+ArbolInfoAcad, con referencias al padre nodo, a los nodos hijos y al valor de tipo InfoAcad.
+
+
+Excepciones:
+
+- ExcepcionCalificacionInvalida.kt: Contiene una subclase de la clase Exception en la que se presenta
+un mensaje de error si una calificación es inválida.
+
+- ExcepcionEstudianteInvalido.kt: Contiene una subclase de la clase Exception en la que se presenta
+un mensaje de error si el carnet de un estudiante es inválido.
+
+- ExcepcionEstudianteNoHaCursadoMateria.kt: Contiene una subclase de la clase Exception en la que se 
+presenta un mensaje de error si un estudiante no cursa materias.
+
+- ExcepcionMateriaInvalida.kt: Contiene una subclase de la clase Exception en la que se presenta
+un mensaje de error si el código de una materia es inválida
+
+- ExcepcionMateriaNoCursada.kt: Contiene una subclase de la clase Exception en la que se presenta
+un mensaje de error si un estudiante no cursa una materia dada.
+
+- ExcepcionMateriaNoExistente.kt: Contiene una subclase de la clase Exception en la que se presenta
+un mensaje de error si una materia no existe en el administrador.
+
+- ExcepcionMateriaYaCursada.kt: Contiene una subclase de la clase Exception en la que se presenta
+un mensaje de error si un estudiante ya cursó una materia dada.
+
+
+Programa cliente:
+
+- Sorpresita.kt: Contiene una función externa implementada por el profesor de la materia.
+
+- Main.kt: Cliente que muestra el uso del administrador de manera interactiva, en el cual se ofrece 
+al usuario un menú de opciones, de lo cual el usuario escoge cual operacion quiere ejecutar.
+
+
+Otros:
+
+- Makefile: Compila el programa del proyecto
+
+- runProyecto2.sh: Archivo ejecutable del programa del proyecto
+
+
+Operatividad del programa:
+
+El programa del proyecto se encuentra operativo. Para el momento de la entrega, no se han encontrado
+errores conocidos que no se hayan podido solucionar.
+
+
+Compilación del programa:
+
+>make
+
+
+Ejecución del programa:
+
+>./runProyecto2.sh

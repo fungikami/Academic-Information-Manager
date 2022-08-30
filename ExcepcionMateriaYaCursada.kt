@@ -1,0 +1,1 @@
+class ExcepcionMateriaYaCursada(e: String, m: String): Exception("Error, el estudiante $e ya cursó la materia $m.")

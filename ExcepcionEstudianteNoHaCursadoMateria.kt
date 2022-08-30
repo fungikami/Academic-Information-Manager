@@ -1,0 +1,1 @@
+class ExcepcionEstudianteNoHaCursadoMateria(e: String): Exception("Error, el estudiante $e no ha cursado materias.")

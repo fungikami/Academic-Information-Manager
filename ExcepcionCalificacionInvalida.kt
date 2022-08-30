@@ -1,0 +1,1 @@
+class ExcepcionCalificacionInvalida(c: Int): Exception("Error, $c es una calificación inválida, debe ser un entero del intérvalo [1..9].")

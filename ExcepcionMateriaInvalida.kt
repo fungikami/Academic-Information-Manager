@@ -1,0 +1,1 @@
+class ExcepcionMateriaInvalida(m: String): Exception("Error, $m es un código de materia inválido, debe ser de la forma AAXXXX siendo A un caracter ['A'..'Z'] en mayúscula y X un entero [0..9].")

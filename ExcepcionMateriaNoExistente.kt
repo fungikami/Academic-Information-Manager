@@ -1,0 +1,1 @@
+class ExcepcionMateriaNoExistente(m: String): Exception("Error, la materia $m no existe.")
